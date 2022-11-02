@@ -11,7 +11,7 @@ jobs:
       - name: inst depend
       - run: npm install
       - name: run test
-        run: npm test
+      - run: npm test
   cd:
     runs-on: ubuntu-latest
     needs: ci
